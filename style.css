@@ -26,6 +26,7 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 .menu span, .floors span { opacity: .6; }
 .menu button, .floors button { opacity: .78; padding: 4px 2px; border-bottom: 1px solid transparent; transition: opacity .2s, border-color .2s; }
 .menu button:hover, .floors button:hover, .menu button.on, .floors button.on { opacity: 1; border-bottom-color: var(--ink); }
+.floors button.soon { opacity: .45; }
 .floors { display: flex; gap: 10px; font-size: 15px; }
 .hint { font-size: 13px; color: var(--ink-soft); transition: opacity .6s; }
 .progress { position: absolute; left: 18px; right: 18px; bottom: 6px; height: 1px; background: rgba(255, 255, 255, .25); }
